@@ -9,7 +9,7 @@ body {
 #root {
   width: 100%;
   margin: 0 auto;
-  
+
 }
 
 .header {
@@ -28,7 +28,7 @@ body {
     position: absolute;
     z-index: -1;
     opacity: 40%;
-    background: url(https://images.unsplash.com/photo-1557877086-af138221a600?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+    background: url(https://images.unsplash.com/photo-1557877086-af138221a600?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80) center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -101,7 +101,17 @@ body {
 
 .main-container {
   height: 100vh;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
 
+  .content {
+    width: 80%;
+    line-height: 25px;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+  }
 }
 
 
