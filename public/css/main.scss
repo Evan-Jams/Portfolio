@@ -15,7 +15,7 @@ body {
 .header {
   height: 500px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   overflow: hidden;
@@ -34,10 +34,11 @@ body {
   }
 
   #personal-photo {
-    height: 250px;
-    width: 250px;
-    background-color: #fff;
-    border-radius: 50%;
+    height: 325px;
+    width: 325px;
+    background-image: url(../IMG_0864.jpeg);
+    background-size: cover;
+    border-radius: 20px;
     border: 1px solid grey;
     box-shadow: 3px 3px 8px #b0b0b0,
                 -3px 3px 8px #b0b0b0,
@@ -50,7 +51,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 50%;
+    width: 400px;
 
     h1 {
       text-align: center;
