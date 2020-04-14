@@ -5,7 +5,7 @@ class Footer extends Component {
     return(
       <div className="footer">
         <div>
-          Created and styled by Evan James
+          - Created and styled by Evan James -
         </div>
       </div>
     )

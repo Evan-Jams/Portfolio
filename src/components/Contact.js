@@ -6,7 +6,12 @@ class Contact extends Component {
     return(
       <>
         <div className="main-container">
-          <h2>Contact Page</h2>
+          <h1>Check Out My Resume</h1>
+          <div className="resume">
+
+            <img src="/resume.png" alt="screenshot of resume" />
+          </div>
+          <h2>Contact Me</h2>
           <Form />
         </div>
       </>

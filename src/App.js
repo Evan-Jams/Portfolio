@@ -22,7 +22,9 @@ class App extends Component {
             <div className="right-header">
               <h1>Evan James</h1>
               <p>Software Engineer | Golf Professional</p>
-              <button href=".main-container"><Link to="/about">About Me</Link></button>
+              <button href=".main-container">
+                <Link to="/about">About Me</Link>
+              </button>
             </div>
           </div>
           <Route path="/" exact component={Home} />
