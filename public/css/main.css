@@ -168,7 +168,6 @@ body {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 320px;
 }
 .project-container img {
   width: 150px;
@@ -181,7 +180,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  width: 25%;
+  width: 40%;
   height: 100%;
 }
 .project-container .projects .proj-description {
@@ -208,6 +207,112 @@ body {
   box-shadow: 5px -5px 5px gainsboro;
 }
 
-@keyframes;
+@media (max-width: 850px) {
+  .nav a {
+    font-size: 15px;
+    width: 24%;
+  }
+  .nav a:hover {
+    font-size: 15px;
+  }
+
+  .main-container {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .main-container h1 {
+    font-size: 30px;
+  }
+  .main-container .welcome-content {
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+  }
+
+  .header {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    top: 20px;
+    margin-top: 75px;
+  }
+  .header #personal-photo {
+    height: 225px;
+    width: 225px;
+    margin: 25px auto;
+  }
+  .header .right-header {
+    width: 350px;
+  }
+  .header .right-header h1 {
+    font-size: 35px;
+  }
+  .header .right-header p {
+    margin: 25px auto;
+    font-size: 20px;
+  }
+
+  .intro-content {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .intro-content div {
+    width: 90%;
+    padding: 0;
+  }
+  .intro-content #middle-column {
+    border: none;
+  }
+
+  .about-me {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  .about-me p {
+    width: 90%;
+    margin: auto;
+  }
+
+  .fund-raising {
+    margin-bottom: 30px;
+  }
+  .fund-raising img {
+    width: 90%;
+  }
+  .fund-raising p {
+    width: 90%;
+  }
+
+  .resume img {
+    height: 350px;
+  }
+
+  .project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .project-container .projects {
+    justify-content: space-between;
+    width: 90%;
+    height: 20%;
+  }
+  .project-container .projects .proj-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
