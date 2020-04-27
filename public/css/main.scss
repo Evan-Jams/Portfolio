@@ -155,17 +155,27 @@ body {
 }
 
 .about-me {
-  margin-bottom: 50px;
+  width: 80%;
+  line-height: 25px;
+  margin: 50px auto;
   padding-bottom: 50px;
   border-bottom: 1px solid grey;
-  p {
-    width: 70%;
-    margin: auto;
-  }
+  // margin-bottom: 50px;
+  // padding-bottom: 50px;
+  // border-bottom: 1px solid grey;
+  // p {
+  //   width: 70%;
+  //   margin: auto;
+  // }
 }
 
 .fund-raising {
-  margin-bottom: 50px;
+  width: 80%;
+  line-height: 25px;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+  // margin-bottom: 50px;
 
   img {
     width: 100%;

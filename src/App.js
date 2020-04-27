@@ -22,7 +22,7 @@ class App extends Component {
             <div className="right-header">
               <h1>Evan James</h1>
               <p>Software Engineer | Golf Professional</p>
-              <button href=".main-container">
+              <button>
                 <Link to="/about">About Me</Link>
               </button>
             </div>
