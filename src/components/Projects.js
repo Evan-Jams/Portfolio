@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Projects extends Component {
-  render(){
+const Projects = () => {
     return(
       <>
         <div className="main-container">
@@ -52,6 +51,5 @@ class Projects extends Component {
       </>
     )
   }
-}
 
 export default Projects

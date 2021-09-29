@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Form extends Component {
-  render(){
+const Form = () => {
     return(
       <>
         <form action="mailto:EvanPJames7@gmail.com" method="post" encType="text/plain">
@@ -23,6 +22,6 @@ class Form extends Component {
       </>
     )
   }
-}
+
 
 export default Form

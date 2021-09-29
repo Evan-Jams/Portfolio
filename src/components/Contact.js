@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Form from './Form'
 
-class Contact extends Component {
-  render(){
+const Contact = () => {
     return(
       <>
         <div className="main-container">
@@ -18,6 +17,5 @@ class Contact extends Component {
       </>
     )
   }
-}
 
 export default Contact

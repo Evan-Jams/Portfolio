@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Nav from './components/Nav.js'
 import Home from './components/Home.js'
@@ -8,8 +8,7 @@ import Contact from './components/Contact.js'
 import Projects from './components/Projects.js'
 
 
-class App extends Component {
-  render(){
+const App = () => {
     return(
       <>
         <Router>
@@ -35,7 +34,6 @@ class App extends Component {
         <Footer />
       </>
     )
-  }
 }
-
+  
 export default App;
